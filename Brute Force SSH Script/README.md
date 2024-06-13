@@ -32,5 +32,5 @@ pip install pwn paramiko
 2. Modify the `host` and `username` variables in the script to match the target SSH server's details.
 3. Run the script with Python:
 ```bash
-python ssh_brute.py
+python3 ssh_brute.py
 ```
