@@ -1,6 +1,4 @@
-Certainly! Here's an enhanced `README.md` for your **PySecScripts** repository that includes the current project and mentions future projects, making it more dynamic and forward-looking:
 
-```markdown
 # PySecScripts 🛡️
 
 Welcome to **PySecScripts**, a curated collection of Python scripts designed for security testing and penetration testing. This repository serves as a showcase of my expertise in developing automated tools that enhance network defense capabilities and streamline security assessments. It's ideal for cybersecurity enthusiasts and professionals seeking to deepen their understanding and application of security practices through Python.
