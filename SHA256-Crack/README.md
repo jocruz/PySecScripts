@@ -16,20 +16,6 @@ Welcome to **PySecScripts**, a collection of Python scripts designed for securit
   - Compares each hash with the target hash to find a match.
   - Provides real-time progress updates.
 
-## Getting Started 📋
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/PySecScripts.git
-   ```
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd PySecScripts
-   ```
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage Instructions 🛠️
 
