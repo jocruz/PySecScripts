@@ -1,6 +1,3 @@
-Certainly! Here is the updated `README.md` for your main repository **PySecScripts**, integrating the additional script descriptions we developed earlier.
-
----
 
 # PySecScripts 🛡️
 
