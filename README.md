@@ -1,3 +1,6 @@
+Certainly! Here is the updated `README.md` for your main repository **PySecScripts**, integrating the additional script descriptions we developed earlier.
+
+---
 
 # PySecScripts 🛡️
 
@@ -8,29 +11,8 @@ Welcome to **PySecScripts**, a curated collection of Python scripts designed for
 ### SSH Brute Force Script
 - **Description**: This script automates the process of attempting to log into an SSH server using a list of common passwords. It is intended to help identify weak passwords and demonstrate the importance of robust security policies in SSH environments.
 
-## Planned Projects 🔮
+### SHA-256 Hash Cracker Tool
+- **Description**: This tool is designed to perform brute-force attacks against SHA-256 hashed passwords to identify the plaintext password from a hashed version using a common wordlist. It highlights the importance of robust encryption methods and the risks associated with weak cryptographic practices.
 
-The following projects are in the pipeline and will be added to this repository in the future:
-- **Network Scanner**: A script to scan networks for open ports and identify potential vulnerabilities.
-- **Encryption/Decryption Tool**: A utility to encrypt and decrypt messages, showcasing cryptographic best practices with Python.
-- **SQL Injection Tester**: A tool designed to test web applications for SQL injection vulnerabilities, helping to secure databases against common attack vectors.
-
-## Getting Started 🚀
-
-To get started with the scripts in this repository:
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/PySecScripts.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd PySecScripts
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Using the Scripts ⚙️
-
-Each script in this repository comes with its own set of instructions located within the script's directory in a `README.md` file. Be sure to read these instructions carefully to understand how to configure and run each script appropriately.
+### Username and Password Brute Forcer Tool
+- **Description**: This Python script automates testing common usernames and passwords against web-based login forms to detect weak credentials. It demonstrates the ease with which common credentials can be exploited and underscores the need for stronger authentication mechanisms.
