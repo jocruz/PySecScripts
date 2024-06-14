@@ -1,32 +1,34 @@
-# Username and Password Brute Forcer Tool
+# PySecScripts 🛡️
 
-## Overview 🌟
-This Python script automates testing of common usernames and passwords against web-based login forms to detect weak credentials that could compromise system security.
+Welcome to **PySecScripts**, a curated collection of Python scripts designed for security testing and penetration testing. This repository showcases my expertise in developing automated tools that enhance network defense capabilities and streamline security assessments. Ideal for cybersecurity enthusiasts and professionals, these scripts aim to deepen understanding and application of security practices through Python.
 
-## What is a Brute Force Attack? 🔍
-A brute force attack involves systematically checking all possible username and password combinations until the correct one is found. This method relies on computational power and can potentially crack any password given enough time and resources.
+## Current Projects 📂
 
-## Purpose of the Script 🎯
-The script's purpose is to perform brute-force attacks on specified login pages, identifying vulnerable credentials to highlight the need for robust authentication systems and to encourage stronger security practices.
+### SSH Brute Force Script
+- **Description**: Automates the process of attempting to log into an SSH server using a list of common passwords, highlighting the importance of robust security policies in SSH environments.
 
-## How the Script Works 🛠️
-- **Lists of Common Credentials**: Uses a list of popular usernames (`top-usernames-shortlist.txt`) and a list of common passwords (`2020-200_most_used_passwords.txt`) to test against the target login form.
-- **HTTP POST Requests**: For each combination of username and password, the script sends a POST request to the login form.
-- **Success Detection**: Monitors the response for a phrase (e.g., "Welcome back") that indicates a successful login.
+### SHA-256 Hash Cracker Tool
+- **Description**: Performs brute-force attacks against SHA-256 hashed passwords, identifying plaintext passwords from hashed versions using a common wordlist.
 
-## Key Features 🌈
-- **Real-Time Feedback**: Provides updates on which credentials are currently being tested.
-- **Efficiency and Immediate Results**: Stops upon discovering valid credentials, providing quick results and saving resources.
-- **Comprehensive Testing Strategy**: Leverages widely recognized lists of common credentials to evaluate the security of login mechanisms.
+### Username and Password Brute Forcer Tool
+- **Description**: Tests common usernames and passwords against web-based login forms, detecting weak credentials and underscoring the need for stronger authentication mechanisms.
 
-## Script Breakdown 📖
-- **Username and Password Lists**: Utilizes `top-usernames-shortlist.txt` for a focused approach on the most likely usernames and `2020-200_most_used_passwords.txt` for commonly used passwords, reflecting real-world attack scenarios where attackers use known data breaches.
-- **Login Mechanism Testing**: Each username and password pair is sent to the target URL as form data, simulating the login process seen in actual user interactions.
+## OWASP Top 10 and Script Relevance 🌍
+The scripts in this repository address several of the OWASP Top 10 security risks, such as:
+- **Injection (SQL Injection Tester)**: Tests for vulnerabilities in web applications that could allow unauthorized data access.
+- **Broken Authentication (Username and Password Brute Forcer Tool)**: Demonstrates the risks associated with weak authentication mechanisms and promotes stronger security practices.
+- **Sensitive Data Exposure (SHA-256 Hash Cracker Tool)**: Highlights the risks of poor cryptographic practices and encourages the use of robust encryption methods.
 
-## Considerations and Limitations ⚠️
-- **Excessive Requests**: Brute force attacks involve sending many HTTP requests, which can lead to network strain or alert security systems.
-- **Security Measures**: Modern systems often implement account lockout policies or CAPTCHAs after several failed login attempts, and Web Application Firewalls (WAFs) can detect and block brute-force attacks.
-- **Headers and Response Monitoring**: It’s important to monitor response headers and payloads for indications like 'attempts left', which can provide clues on defensive mechanisms in place.
+These scripts serve as practical tools to understand, test, and mitigate a range of security vulnerabilities aligned with the OWASP Top 10.
+
+## What is Cybersecurity? 🔐
+Cybersecurity involves protecting systems, networks, and programs from digital attacks. These cyberattacks typically aim to access, alter, or destroy sensitive information; extort money from users; or interrupt normal business processes.
+
+## Role of Python in Cybersecurity 🐍
+Python is a powerful tool in the field of cybersecurity due to its simplicity and readability, which allow for rapid development and deployment of security tools. Its extensive library ecosystem supports tasks ranging from penetration testing and network scanning to malware analysis and automated reporting.
+
+## Using the Scripts ⚙️
+Each script in this repository is documented within its own directory in a `README.md` file. These instructions provide detailed guidance on configuration and execution to ensure you can effectively use each tool.
 
 ## Conclusion 🏁
-While effective for identifying weak points in authentication systems, brute force attacks highlight the necessity for strong, enforceable password policies and advanced security measures such as WAFs. This tool serves both as a demonstration of potential security flaws and a reminder of the continuous need for cybersecurity enhancements.
+These Python scripts not only offer practical insights into common vulnerabilities but also reinforce the necessity of continuous security improvements and the importance of adhering to established security standards like the OWASP Top 10. They are an essential part of any cybersecurity professional's toolkit, aiding in both educational and practical applications to safeguard digital assets.
