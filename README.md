@@ -1,9 +1,9 @@
 
-# PySecScripts 🛡️
+# PySecScripts
 
 Welcome to **PySecScripts**, a curated collection of Python scripts designed for security testing and penetration testing. This repository serves as a showcase of my expertise in developing automated tools that enhance network defense capabilities and streamline security assessments. It's ideal for cybersecurity enthusiasts and professionals seeking to deepen their understanding and application of security practices through Python.
 
-## 📚 Python 101 for Hackers - TCM Security
+## Python 101 for Hackers - TCM Security
 I completed the **Python 101 for Hackers** course by TCM Security, gaining foundational and hacking-focused Python skills. This course provided hands-on experience with Python for cybersecurity and automation tasks.  
 [Course Link](https://academy.tcm-sec.com/p/python-101-for-hackers)
 
@@ -20,7 +20,7 @@ I completed the **Python 101 for Hackers** course by TCM Security, gaining found
   - SQL injection exploitation
 - **Best Practices**: Emphasis on documentation, commenting, and continuous learning.
 
-## Current Projects 📂
+## Current Projects 
 
 ### SSH Brute Force Script
 - **Description**: Automates attempts to log into an SSH server using a list of common passwords. This tool helps in identifying weak passwords, demonstrating the necessity for robust SSH security policies.
